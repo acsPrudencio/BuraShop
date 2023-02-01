@@ -19,5 +19,5 @@ public class Product extends GenericModel{
     private BigDecimal price;
     @Column(length = 20)
     private CategoryEnum category;
-    private BigInteger quantity;
+    private Integer quantity;
 }

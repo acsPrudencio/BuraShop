@@ -13,8 +13,9 @@ import java.math.BigInteger;
 @AllArgsConstructor
 @NoArgsConstructor
 public class ProductDTO {
+    private Long id;
     private String name;
     private BigDecimal price;
     private CategoryEnum category;
-    private BigInteger quantity;
+    private Integer quantity;
 }
